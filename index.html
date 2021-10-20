@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>How to Change Content Using CSS</title>
+		<style>
+		h1:before {
+			font-size: 55px;
+			content: "This is Css Content";
+			text-transform: uppercase;
+		}
+
+		h1 {
+			font-size: 0;
+		}
+		
+		h1 {
+			font-family: sans-serif;
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			margin: auto;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		</style>
+	</head>
+	
+	<body>
+		<h1>This is my content.</h1>
+	</body>
+</html>
